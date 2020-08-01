@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScriptBasicsIntro</title>
+    <script src="BasicsIntroJavaScript.js"> </script>
+</head>
+<body>
+<!--Case No 1-->
+<!--Example Of Change Content -->
+<h2>What Can JavaScript Do</h2>
+
+<p id="demo">JavaScript Change This Words IN HTML Content</p>
+
+
+<button type="button" onclick='document.getElementById("demo").innerHTML="HelloJava Scripts Lover"'>
+    Plz Click Me To Change Content </button>
+
+<!--Case No 2-->
+<!--Example Of On Or Off Bulb-->
+<h2>What Can JavaScript Do</h2>
+
+<p>Java Script Can Change Attribute Value</p>
+
+<p>In This Case JavaScript Changes The Value of the src (Source) Attribute Of An Image</p>
+
+<button onclick="document.getElementById('myImage').src='onBulb.jpg'">Turn On The Bulb</button>
+
+<img id="myImage" src="offBulbImage.png" alt="" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='offBulbImage.png'">
+    Turn Of The Bulb
+</button>
+
+<!--Case No 3-->
+<!--This Example Change Styles Of Css-->
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>
+    In This Case Change The Style Of COntent
+</p>
+
+<p id="demo1">
+    JavaScript Can Change The Style Of An Element.
+</p>
+
+<button type="button" onclick="document.getElementById('demo1').style.fontSize='75px'">
+
+Click Me An See Big Size Of Content
+</button>
+
+<!--Case No 4-->
+<!--iN tHIS cASE JavaScript Hide The Element-->
+
+<h2>What Can Java Script Do?</h2>
+<p id="demo2">
+    JavaScript Can Hide Html Elements
+</p>
+
+<button type="button" onclick="document.getElementById('demo2').style.display='none'">
+Click Me To Hide Content
+</button>
+
+<!--Case No 5-->
+<!--In This Case JavaScript Can Hide Html Element-->
+
+><h2>What Java Script Can Do?</h2>
+
+<p>Java Script Can Show Hidden HTML Elements.</p>
+
+<p id="demo4" style="display: none"> Hello JavaScript Its Showing Content</p>
+<button type="button" onclick="document.getElementById('demo4').style.display='block'">
+Click Me To Show
+</button>
+
+</body>
+</html>
